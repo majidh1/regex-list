@@ -1,0 +1,31 @@
+{
+    "name": "@majidh1/regex-list",
+    "description": "A list of popular iranian regex.",
+    "license": "MIT",
+    "author": {
+      "name": "Majid Hooshiyar"
+    },
+    "main": "dist/regex-list.min.js",
+    "version": "0.0.1",
+    "keywords": [
+      "regex",
+      "iranian-regex",
+      "iranian mobile",
+      "iranian nationalCode",
+      "persian-regex",
+      "farsi",
+      "regular expression"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/majidh1/regex-list.git"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint . --ext .js",
+      "build:readme": "node ./builder/BuildReadMe.js"
+    },
+    "devDependencies": {
+      "cli-color":"2.0.3"
+    }
+  }
