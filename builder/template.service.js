@@ -7,22 +7,23 @@ function getContentFromTemplate(regexItem){
     <br>
     نمونه صحیح: [passTest]
     <br>
+    <br>
 
-    \`\`\`js
-    [regex]
-    \`\`\`
+\`\`\`js
+[regex]
+\`\`\`
 </details>
 `;
     return itemTemplate
         .replace("[title]", regexItem.title)
         .replace("[description]", regexItem.description)
         .replace("[regex]", regexItem.regex)
-        .replace("[passTest]", regexItem.passTest);
+        .replace("[passTest]", regexItem.passTest.join(", "));
 }
 
 function getContentListFromTemplate(regexItem){
     let result = `
-<details>
+<details dir="rtl">
     <summary>${regexItem.title}</summary>
     <br>
     ${regexItem.description ? regexItem.description +"\n<br>\n" : ""}
