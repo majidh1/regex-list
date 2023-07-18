@@ -12,7 +12,11 @@
     <br>
     
 
+<<<<<<< HEAD
 <details dir="rtl">
+=======
+<details>
+>>>>>>> main
     <summary>شماره موبایل ایران - داخلی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با 09 شروع میشود
@@ -27,7 +31,11 @@
 </details>
 
 
+<<<<<<< HEAD
 <details dir="rtl">
+=======
+<details>
+>>>>>>> main
     <summary>شماره موبایل ایران - خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با +989 شروع میشود
@@ -42,7 +50,11 @@
 </details>
 
 
+<<<<<<< HEAD
 <details dir="rtl">
+=======
+<details>
+>>>>>>> main
     <summary>شماره موبایل ایران - داخلی یا خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و یا با +98 شروع میشود یا با 0
@@ -58,6 +70,7 @@
 
 </details>
     
+<<<<<<< HEAD
 <details dir="rtl">
     <summary>بررسی کد ملی</summary>
     <br>
@@ -72,3 +85,5 @@
 ```
 </details>
 
+=======
+>>>>>>> main
