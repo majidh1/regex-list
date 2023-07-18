@@ -12,7 +12,7 @@
     <br>
     
 
-<details>
+<details dir="rtl">
     <summary>شماره موبایل ایران - داخلی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با 09 شروع میشود
@@ -27,7 +27,7 @@
 </details>
 
 
-<details>
+<details dir="rtl">
     <summary>شماره موبایل ایران - خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با +989 شروع میشود
@@ -42,7 +42,7 @@
 </details>
 
 
-<details>
+<details dir="rtl">
     <summary>شماره موبایل ایران - داخلی یا خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و یا با +98 شروع میشود یا با 0
@@ -58,10 +58,10 @@
 
 </details>
     
-<details>
+<details dir="rtl">
     <summary>بررسی کد ملی</summary>
     <br>
-    کد ملی 10 رقمی و فقط عدد قبول میکند به دلیل داشتن الگوریتم در کد ملی با ریجکس به تهنایی نمی‌توان کد ملی را اعتبار سنجی کرد برای بررسی صحیح بودن کد ملی از [این ریپو](https://github.com/majidh1/iranianNationalCode/blob/main/src/iranianNationalCodeValidator.js) میتوانید استفاده کنید
+    کد ملی 10 رقمی و فقط عدد قبول میکند به دلیل داشتن الگوریتم در کد ملی با ریجکس به تهنایی نمی‌توان کد ملی را اعتبار سنجی کرد برای بررسی صحیح بودن کد ملی از <a href="https://github.com/majidh1/iranianNationalCode/blob/main/src/iranianNationalCodeValidator.js">این ریپو</a> میتوانید استفاده کنید
     <br>
     نمونه صحیح: 0011234554, 2569871231
     <br>

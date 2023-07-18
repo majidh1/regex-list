@@ -1,6 +1,6 @@
 function getContentFromTemplate(regexItem){
     const itemTemplate = `
-<details>
+<details dir="rtl">
     <summary>[title]</summary>
     <br>
     [description]
