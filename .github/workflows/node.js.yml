@@ -28,7 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build:readme
-    - run: git config --global user.email youremail
-           git config --global user.name yourusername
-           git add .
-           git commit -m "README update Automation" -a
+    - run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "Actions Auto Build"
+        git add -f .
+        git commit -m "README update Automation" || true
+        git push --force origin HEAD:refs/heads/main
