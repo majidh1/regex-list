@@ -1,3 +1,5 @@
+const { checkValidateRegex } = require("./validate.service.js");
+
 function getContentFromTemplate(regexItem){
     const itemTemplate = `
 <details dir="rtl">
@@ -14,6 +16,7 @@ function getContentFromTemplate(regexItem){
 \`\`\`
 </details>
 `;
+    checkValidateRegex(regexItem);
     return itemTemplate
         .replace("[title]", regexItem.title)
         .replace("[description]", regexItem.description)
