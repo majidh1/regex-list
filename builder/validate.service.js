@@ -1,3 +1,5 @@
+const { raiseError } = require("./utils.js");
+
 function checkValidateRegex(regexItem){
     regexItem.passTest.forEach(item => {
         if (!RegExp(regexItem.regex).test(item))
