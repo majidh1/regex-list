@@ -59,6 +59,20 @@
 </details>
     
 <details dir="rtl">
+    <summary>بررسی کد پستی</summary>
+    <br>
+    کدپستی شامل 10 رقم میباشد فقط اعداد قابل قبول است
+    <br>
+    نمونه صحیح: 6317836531, 5614793457, 3715659319
+    <br>
+    <br>
+
+```js
+\b(?!(\d)\1{3})[13-9]{4}[1346-9][013-9]{5}\b
+```
+</details>
+
+<details dir="rtl">
     <summary>بررسی کد ملی</summary>
     <br>
     کد ملی 10 رقمی و فقط عدد قبول میکند به دلیل داشتن الگوریتم در کد ملی با ریجکس به تهنایی نمی‌توان کد ملی را اعتبار سنجی کرد برای بررسی صحیح بودن کد ملی از <a href="https://github.com/majidh1/iranianNationalCode/blob/main/src/iranianNationalCodeValidator.js">این ریپو</a> میتوانید استفاده کنید
