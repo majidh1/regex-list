@@ -1,0 +1,17 @@
+{
+    "title": "بررسی ایمیل",
+    "description": "ایمیل صحیح قبول میکند",
+    "regex": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+    "passTest": [
+        "majidh1@live.com",
+        "a@b.com"
+    ],
+    "rejectTest": [
+        "a@b.c",
+        "aerb.c",
+        "aerb.c@",
+        "ddfdsf234234",
+        "4234@234dz3",
+        "423423423423423"
+    ]
+}
