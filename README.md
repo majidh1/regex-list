@@ -8,6 +8,20 @@
 ## لیست ریجکس‌ها
 
 <details dir="rtl">
+    <summary>بررسی ایمیل</summary>
+    <br>
+    ایمیل صحیح قبول میکند
+    <br>
+    نمونه صحیح: majidh1@live.com, a@b.com
+    <br>
+    <br>
+
+```js
+^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$
+```
+</details>
+
+<details dir="rtl">
     <summary>شماره موبایل ایران</summary>
     <br>
     
