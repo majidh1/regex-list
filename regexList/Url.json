@@ -1,0 +1,17 @@
+{
+    "title": "آدرس سایت - URL",
+    "description": "یک آدرس سایت معتبر قبول میکند",
+    "regex": "https?:\/\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
+    "passTest": [
+        "https://stackoverflow.com/",
+        "http://stackoverflow.com",
+        "http://google.com/test",
+        "https://github.blog"
+    ],
+    "rejectTest": [
+        "شروع",
+        "tp://google.com",
+        "//github.blog",
+        "github.blog"
+    ]
+}
