@@ -128,3 +128,17 @@
 ```
 </details>
 
+<details dir="rtl">
+    <summary>آدرس سایت - URL</summary>
+    <br>
+    یک آدرس سایت معتبر قبول میکند
+    <br>
+    نمونه صحیح: https://stackoverflow.com/, http://stackoverflow.com, http://google.com/test, https://github.blog
+    <br>
+    <br>
+
+```js
+https?://(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)
+```
+</details>
+
