@@ -1,6 +1,6 @@
 const { checkValidateRegex } = require("./validate.service.js");
 
-function getContentFromTemplate(regexItem,style){
+function getContentFromTemplate(regexItem,style=""){
     const itemTemplate = `
 <details dir="rtl" style="${style}">
     <summary>[title]</summary>
