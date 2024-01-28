@@ -1,8 +1,8 @@
 const { checkValidateRegex } = require("./validate.service.js");
 
-function getContentFromTemplate(regexItem){
+function getContentFromTemplate(regexItem,style){
     const itemTemplate = `
-<details dir="rtl">
+<details dir="rtl" style="${style}">
     <summary>[title]</summary>
     <br>
     [description]
@@ -34,7 +34,7 @@ function getContentListFromTemplate(regexItem){
     `
 
     regexItem.list.forEach(item => {
-        result = result.replace("</detailsLast>",getContentFromTemplate(item)+"\n</detailsLast>")
+        result = result.replace("</detailsLast>",getContentFromTemplate(item,"padding: 0 25px")+"\n</detailsLast>")
     });
 
     return result.replace("</detailsLast>","</details>");
