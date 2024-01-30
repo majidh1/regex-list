@@ -7,8 +7,22 @@
 
 ## لیست ریجکس‌ها
 
-<details dir="rtl">
-    <summary>بررسی شماره کارت بانکی</summary>
+<details dir="rtl" style="">
+    <summary>آدرس مکان</summary>
+    <br>
+    حروف فارسی و اعداد را قبول میکند شامل تمامی کاراتر‌های قابل استفاده در آدرس فارسی است
+    <br>
+    نمونه صحیح: خ تهرانی پ1, زنگ اول پلاک 2, خیابان آزادی – خیابان ملت – جنب تاکسیرانی – ساختمان سابق – شرکت شهرک صنعتی – طبقه سوم
+    <br>
+    <br>
+
+```js
+^[\u0600-\u06FF\s\d-–]+$
+```
+</details>
+
+<details dir="rtl" style="">
+    <summary>بررسی شماره کارت بانکی شتاب</summary>
     <br>
     شماره کارت بانکی شماره کارت بانکی ۱۶ رقم دارد و هیچ حرف انگلیسی یا فارسی در آن به کار نمی‌رود
     <br>
@@ -21,7 +35,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>بررسی ایمیل</summary>
     <br>
     ایمیل صحیح قبول میکند
@@ -40,7 +54,7 @@
     <br>
     
 
-<details dir="rtl">
+<details dir="rtl" style="padding: 0 25px">
     <summary>شماره موبایل ایران - داخلی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با 09 شروع میشود
@@ -55,7 +69,7 @@
 </details>
 
 
-<details dir="rtl">
+<details dir="rtl" style="padding: 0 25px">
     <summary>شماره موبایل ایران - خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و با +989 شروع میشود
@@ -70,7 +84,7 @@
 </details>
 
 
-<details dir="rtl">
+<details dir="rtl" style="padding: 0 25px">
     <summary>شماره موبایل ایران - داخلی یا خارجی</summary>
     <br>
     شماره موبایل صحیح قبول میکند و یا با +98 شروع میشود یا با 0
@@ -86,7 +100,7 @@
 
 </details>
     
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>بررسی کد پستی</summary>
     <br>
     کدپستی شامل 10 رقم میباشد فقط اعداد قابل قبول است
@@ -100,7 +114,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>بررسی تاریخ شمسی</summary>
     <br>
     تاریخ شمسی صحیح قبول میکند و بین اعداد / هست این regex سال‌های غیر مرسوم را پوشش نمیدهد
@@ -114,7 +128,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>بررسی کد ملی</summary>
     <br>
     کد ملی 10 رقمی و فقط عدد قبول میکند به دلیل داشتن الگوریتم در کد ملی با ریجکس به تهنایی نمی‌توان کد ملی را اعتبار سنجی کرد برای بررسی صحیح بودن کد ملی از <a href="https://github.com/majidh1/iranianNationalCode/blob/main/src/iranianNationalCodeValidator.js">این ریپو</a> میتوانید استفاده کنید
@@ -128,7 +142,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>فقط حروف فارسی</summary>
     <br>
     حروف فارسی قبول میکند شامل تمامی کاراتر‌های قابل استفاده در متون فارسی
@@ -142,7 +156,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>فقط اعداد فارسی</summary>
     <br>
     فقط اعداد فارسی قبول میکند
@@ -156,7 +170,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>شماره ثابت</summary>
     <br>
     فقط اعداد ترکیب و پیش شماره
@@ -170,7 +184,7 @@
 ```
 </details>
 
-<details dir="rtl">
+<details dir="rtl" style="">
     <summary>آدرس سایت - URL</summary>
     <br>
     یک آدرس سایت معتبر قبول میکند
