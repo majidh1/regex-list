@@ -129,6 +129,20 @@
 </details>
 
 <details dir="rtl" style="">
+    <summary>MAC Address - آدرس مک سیستم</summary>
+    <br>
+    این آدرس از 6 بخش شامل عدد و حرف (هگزادسیمال) تشکیل شده و با : این موارد از هم جدا شده است یا به هم چسبیده هستند
+    <br>
+    نمونه صحیح: AA:BB:CC:DD:EE:FF, 4A:1B:CC:D5:EE:F2, AABBCCDDEEFF, 4AB2C9D7EE1F
+    <br>
+    <br>
+
+```js
+^(?:[0-9A-f]{2}[:]?){6}(?<![:])$
+```
+</details>
+
+<details dir="rtl" style="">
     <summary>بررسی کد ملی</summary>
     <br>
     کد ملی 10 رقمی و فقط عدد قبول میکند به دلیل داشتن الگوریتم در کد ملی با ریجکس به تهنایی نمی‌توان کد ملی را اعتبار سنجی کرد برای بررسی صحیح بودن کد ملی از <a href="https://github.com/majidh1/iranianNationalCode/blob/main/src/iranianNationalCodeValidator.js">این ریپو</a> میتوانید استفاده کنید
