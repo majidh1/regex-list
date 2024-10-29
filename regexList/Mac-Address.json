@@ -1,0 +1,22 @@
+{
+    "title": "MAC Address - آدرس مک سیستم",
+    "description": "این آدرس از 6 بخش شامل عدد و حرف (هگزادسیمال) تشکیل شده و با : این موارد از هم جدا شده است یا به هم چسبیده هستند",
+    "regex": "^(?:[0-9A-f]{2}[:]?){6}(?<![:])$",
+    "passTest": [
+        "AA:BB:CC:DD:EE:FF",
+        "4A:1B:CC:D5:EE:F2",
+        "AABBCCDDEEFF",
+        "4AB2C9D7EE1F"
+    ],
+    "rejectTest": [
+        "AA:BB:CC:DD:EE:FF-",
+        "AA:BB:CC:DD:EE:FF:",
+        "AA-BB-CC-DD-EE-FF",
+        "AA:BB-CC:DD-EE:FF",
+        "AA-BB-CC-DD-EE-GG",
+        "AAGG",
+        "AA1111GG",
+        "AA:GG",
+        "AA.BB.CC.DD.EE.FF"
+    ]
+}
