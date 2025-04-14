@@ -64,6 +64,20 @@
 </details>
 
 <details dir="rtl" style="">
+    <summary>کد رنگ hex</summary>
+    <br>
+    فقط حروف انگلیسی و اعداد را قبول میکند و 3 یا 6 رقم است
+    <br>
+    نمونه صحیح: #222, #ccc, #FFFFFF, #Fa3Dc9
+    <br>
+    <br>
+
+```js
+^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$
+```
+</details>
+
+<details dir="rtl" style="">
     <summary>IP Address - آدرس آی‌پی</summary>
     <br>
     IP آدرس شناسه‌ای عددی است که برای شناسایی دستگاه‌ها در شبکه استفاده می‌شود و ساختارش در حالت IPv4 (چهار بخش عددی از 0 تا 255، مثل 192.168.1.1) است.
